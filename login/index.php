@@ -18,7 +18,7 @@
 			echo "{
 					key: 'success',
 					value: '".$jwt."'
-				";
+				}";
 		}
 	}
 

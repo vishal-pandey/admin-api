@@ -15,10 +15,10 @@
 			);
 			$jwt = JWT::encode($token, $key);
 			
-			echo "{
-					'key': 'success',
-					'value': '".$jwt."'
-				}";
+			echo '{
+					"key": "success",
+					"value": "'.$jwt.'"
+				}';
 		}
 	}
 

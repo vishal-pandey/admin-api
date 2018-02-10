@@ -14,8 +14,11 @@
 				"secret" => "IronMan",
 			);
 			$jwt = JWT::encode($token, $key);
-			$res = $id->$jwt;
-			echo json_encode($res);
+			
+			echo "{
+					key: 'success',
+					value: '".$jwt."'
+				";
 		}
 	}
 

@@ -5,8 +5,8 @@
 	$json = file_get_contents("php://input");
 	if ($json) {
 		$obj = json_decode($json);
-		echo $obj->id;
-		echo $obj->pwd;
+		// echo $obj->id;
+		// echo $obj->pwd;
 
 		if ($obj->id == 'admin' && $obj->pwd == 'abc@123') {
 			$key = "Vishalisgre8";

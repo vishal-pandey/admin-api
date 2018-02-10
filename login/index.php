@@ -20,6 +20,12 @@
 					"value": "'.$jwt.'"
 				}';
 		}
+		else{
+			echo '{
+					"key": "Wrong id or password Try Again",
+					"value": ""
+				}';
+		}
 	}
 
 ?>
